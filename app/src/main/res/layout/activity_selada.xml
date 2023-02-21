@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#6E9F0B"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Selada">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="Selada"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#ABC470"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="1609dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="1000dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:layout_constraintWidth_max="1000dp"
+        app:srcCompat="@drawable/selada" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:background="#ABC470"
+        android:gravity="center"
+        android:text="Selada merupakan sayuran hijau yang kaya kandungan antioksidan sehingga berperan penting dalam memperkuat fungsi sel tubuh. Kandungan antioksidan dalam daun selada di antaranya adalah antosianin, betakaroten, dan vitamin C. Ketiganya dapat menangkal radikal bebas yang bisa menyebabkan kerusakan pada sel-sel tubuh."
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

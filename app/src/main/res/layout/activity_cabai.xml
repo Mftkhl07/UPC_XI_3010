@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B80E0A"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Cabai">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:background="#8C2F2C"
+        android:gravity="center"
+        android:text="Cabai"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="1609dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="1000dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:layout_constraintWidth_max="1000dp"
+        app:srcCompat="@drawable/cabai" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="332dp"
+        android:background="#8C2F2C"
+        android:gravity="center"
+        android:text="Cabai merupakan tanaman perdu dari famili terong-terongan. Berbagai nutrisi yang terkandung dalam cabai rawit memiliki beragam manfaat untuk kesehatan. Di antaranya seperti protein, karbohidrat, gula, serat, lemak, vitamin A, vitamin B6, vitamin C, zat besi, magnesium, kalium, air dan capsaicin bisa kamu dapatkan dalam cabai."
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

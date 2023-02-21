@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F2114"
+    tools:context=".Activity_Tomat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:background="#B54C3A"
+        android:gravity="center"
+        android:text="Tomat"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="1609dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="1000dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:layout_constraintWidth_max="1000dp"
+        app:srcCompat="@drawable/tomat" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="324dp"
+        android:background="#B54C3A"
+        android:gravity="center"
+        android:text="Tomat merupakan tumbuhan yang pertama kali ditemukan di Amerika Selatan. Selain vitamin C, kandungan tomat berikutnya adalah mineral potassium. Kalium atau potassium penting untuk menjaga keseimbangan elektrolit di dalam tubuh, membantu kontraksi otot dan transmisi saraf, serta menurunkan risiko hipertensi dan penyakit jantung.  "
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
